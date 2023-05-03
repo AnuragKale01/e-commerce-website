@@ -1,0 +1,57 @@
+header{
+    background-color: black;
+}
+li{
+    font-family: cursive;
+}
+/* for blinking */
+.flicker{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    margin: 0%;
+    padding: 0;
+    
+}
+        .flicker {
+            animation-duration:1000ms;
+            animation-name:blink;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+
+        }
+        @keyframes blink {
+            from {
+                opacity:1;
+                color:darkblue;
+            }
+            to {
+                opacity:2;
+                color:aqua;
+            }
+        }
+/* blink part end */
+.footer{
+    background-color: black;
+bottom: 100%;
+  }
+  .footer-p{
+    font-size: larger;
+    color: bisque;
+  }
+  .footer-img{
+    top: 95%;
+    right: 50%;
+    
+    height: 180;
+    width: 120;
+  }
+  .social-logo{
+    background-color:black;
+    height: 180;
+    width: 120;
+    margin:0 ;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+  }
